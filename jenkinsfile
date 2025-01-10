@@ -4,22 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                    echo "bild completed successful"
+                  echo "bild completed successful"
                 }
         }
-        stage('Install Dependencies') {
-            steps {
-                    echo "bild completed successful"
-                }
-            }
         stage('Test') {
             steps {
-                echo "test completed successful"
+                  echo "test completed successful"
                 }
         }
         stage('Package') {
             steps {
-                echo "package completed successful"
+                  echo "package completed successful"
                 }
         }
         stage('Deploy') {
